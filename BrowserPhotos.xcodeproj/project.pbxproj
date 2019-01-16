@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F32F6BB3E0F197CCD5AE0A5 /* Pods_BrowserPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE949B71B2BC131A28E40D1F /* Pods_BrowserPhotos.framework */; };
 		AC806F8E21EF1D0500FBCC81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806F8D21EF1D0500FBCC81 /* AppDelegate.m */; };
 		AC806F9121EF1D0500FBCC81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806F9021EF1D0500FBCC81 /* ViewController.m */; };
 		AC806F9421EF1D0500FBCC81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC806F9221EF1D0500FBCC81 /* Main.storyboard */; };
 		AC806F9621EF1D0700FBCC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC806F9521EF1D0700FBCC81 /* Assets.xcassets */; };
 		AC806F9921EF1D0700FBCC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC806F9721EF1D0700FBCC81 /* LaunchScreen.storyboard */; };
 		AC806F9C21EF1D0700FBCC81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806F9B21EF1D0700FBCC81 /* main.m */; };
+		AC806FB121EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FA421EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.m */; };
+		AC806FB221EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FA521EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.m */; };
+		AC806FB321EF1D1C00FBCC81 /* JSShuffingPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FA621EF1D1C00FBCC81 /* JSShuffingPictureView.m */; };
+		AC806FB421EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC806FA721EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.xib */; };
+		AC806FB521EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC806FA821EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.xib */; };
+		AC806FB621EF1D1C00FBCC81 /* JSShuffingPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC806FAA21EF1D1C00FBCC81 /* JSShuffingPictureView.xib */; };
+		AC806FB721EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC806FAE21EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.xib */; };
+		AC806FB821EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FAF21EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72ED9C0DB7517930455F2866 /* Pods-BrowserPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowserPhotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrowserPhotos/Pods-BrowserPhotos.debug.xcconfig"; sourceTree = "<group>"; };
 		AC806F8921EF1D0500FBCC81 /* BrowserPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC806F8C21EF1D0500FBCC81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC806F8D21EF1D0500FBCC81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,20 @@
 		AC806F9821EF1D0700FBCC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC806F9A21EF1D0700FBCC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC806F9B21EF1D0700FBCC81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC806FA421EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSShuffingPictureCollectionViewCell.m; sourceTree = "<group>"; };
+		AC806FA521EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairBrowserPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		AC806FA621EF1D1C00FBCC81 /* JSShuffingPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSShuffingPictureView.m; sourceTree = "<group>"; };
+		AC806FA721EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepairBrowserPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		AC806FA821EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSShuffingPictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		AC806FA921EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSShuffingPictureCollectionViewCell.h; sourceTree = "<group>"; };
+		AC806FAA21EF1D1C00FBCC81 /* JSShuffingPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSShuffingPictureView.xib; sourceTree = "<group>"; };
+		AC806FAB21EF1D1C00FBCC81 /* JSShuffingPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSShuffingPictureView.h; sourceTree = "<group>"; };
+		AC806FAC21EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairBrowserPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		AC806FAE21EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepairBrowserPhotosViewController.xib; sourceTree = "<group>"; };
+		AC806FAF21EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairBrowserPhotosViewController.m; sourceTree = "<group>"; };
+		AC806FB021EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairBrowserPhotosViewController.h; sourceTree = "<group>"; };
+		B827354B4D50164F1864E987 /* Pods-BrowserPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowserPhotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrowserPhotos/Pods-BrowserPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		EE949B71B2BC131A28E40D1F /* Pods_BrowserPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowserPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F32F6BB3E0F197CCD5AE0A5 /* Pods_BrowserPhotos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				AC806F8B21EF1D0500FBCC81 /* BrowserPhotos */,
 				AC806F8A21EF1D0500FBCC81 /* Products */,
+				B3A69FA4F5C27FC51E5FD548 /* Pods */,
+				E350412090FA74DB0D1C60C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +85,7 @@
 		AC806F8B21EF1D0500FBCC81 /* BrowserPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				AC806FA221EF1D1C00FBCC81 /* BrowPhotoView */,
 				AC806F8C21EF1D0500FBCC81 /* AppDelegate.h */,
 				AC806F8D21EF1D0500FBCC81 /* AppDelegate.m */,
 				AC806F8F21EF1D0500FBCC81 /* ViewController.h */,
@@ -71,6 +99,58 @@
 			path = BrowserPhotos;
 			sourceTree = "<group>";
 		};
+		AC806FA221EF1D1C00FBCC81 /* BrowPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				AC806FA321EF1D1C00FBCC81 /* View */,
+				AC806FAD21EF1D1C00FBCC81 /* ViewController */,
+			);
+			path = BrowPhotoView;
+			sourceTree = "<group>";
+		};
+		AC806FA321EF1D1C00FBCC81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC806FA421EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.m */,
+				AC806FA521EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.m */,
+				AC806FA621EF1D1C00FBCC81 /* JSShuffingPictureView.m */,
+				AC806FA721EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.xib */,
+				AC806FA821EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.xib */,
+				AC806FA921EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.h */,
+				AC806FAA21EF1D1C00FBCC81 /* JSShuffingPictureView.xib */,
+				AC806FAB21EF1D1C00FBCC81 /* JSShuffingPictureView.h */,
+				AC806FAC21EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC806FAD21EF1D1C00FBCC81 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC806FAE21EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.xib */,
+				AC806FAF21EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.m */,
+				AC806FB021EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B3A69FA4F5C27FC51E5FD548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72ED9C0DB7517930455F2866 /* Pods-BrowserPhotos.debug.xcconfig */,
+				B827354B4D50164F1864E987 /* Pods-BrowserPhotos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E350412090FA74DB0D1C60C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE949B71B2BC131A28E40D1F /* Pods_BrowserPhotos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC806F9F21EF1D0700FBCC81 /* Build configuration list for PBXNativeTarget "BrowserPhotos" */;
 			buildPhases = (
+				95B41689D6350B4E2CEC9BD4 /* [CP] Check Pods Manifest.lock */,
 				AC806F8521EF1D0500FBCC81 /* Sources */,
 				AC806F8621EF1D0500FBCC81 /* Frameworks */,
 				AC806F8721EF1D0500FBCC81 /* Resources */,
+				F5FCF1CEC6A6F9FD43C0C897 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,7 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC806FB621EF1D1C00FBCC81 /* JSShuffingPictureView.xib in Resources */,
+				AC806FB521EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.xib in Resources */,
 				AC806F9921EF1D0700FBCC81 /* LaunchScreen.storyboard in Resources */,
+				AC806FB721EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.xib in Resources */,
+				AC806FB421EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.xib in Resources */,
 				AC806F9621EF1D0700FBCC81 /* Assets.xcassets in Resources */,
 				AC806F9421EF1D0500FBCC81 /* Main.storyboard in Resources */,
 			);
@@ -136,14 +222,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		95B41689D6350B4E2CEC9BD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrowserPhotos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5FCF1CEC6A6F9FD43C0C897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BrowserPhotos/Pods-BrowserPhotos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowserPhotos/Pods-BrowserPhotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC806F8521EF1D0500FBCC81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC806FB321EF1D1C00FBCC81 /* JSShuffingPictureView.m in Sources */,
 				AC806F9121EF1D0500FBCC81 /* ViewController.m in Sources */,
 				AC806F9C21EF1D0700FBCC81 /* main.m in Sources */,
+				AC806FB221EF1D1C00FBCC81 /* RepairBrowserPhotoCollectionViewCell.m in Sources */,
+				AC806FB121EF1D1C00FBCC81 /* JSShuffingPictureCollectionViewCell.m in Sources */,
 				AC806F8E21EF1D0500FBCC81 /* AppDelegate.m in Sources */,
+				AC806FB821EF1D1C00FBCC81 /* RepairBrowserPhotosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,15 +410,13 @@
 		};
 		AC806FA021EF1D0700FBCC81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72ED9C0DB7517930455F2866 /* Pods-BrowserPhotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55MA3A96DS;
 				INFOPLIST_FILE = BrowserPhotos/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ld.liandi.BrowserPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +425,13 @@
 		};
 		AC806FA121EF1D0700FBCC81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B827354B4D50164F1864E987 /* Pods-BrowserPhotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55MA3A96DS;
 				INFOPLIST_FILE = BrowserPhotos/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ld.liandi.BrowserPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

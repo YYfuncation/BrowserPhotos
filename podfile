@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'BrowserPhotos' do
+    pod 'SDWebImage', '~> 4.1.2'
+
+end
